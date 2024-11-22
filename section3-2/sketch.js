@@ -36,3 +36,24 @@ function draw(){
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
 }
+
+if(keyIsDown(LEFT_ARROW)){
+  w -= 5;
+  if(keyIsDown("A".charCodeAt(0))){ n=n+1; }
+  if(keyIsDown("B".charCodeAt(0))){ n=n-1; }
+}
+if(keyIsDown(RIGHT_ARROW)){
+  w += 5;
+  if(keyIsDown("A".charCodeAt(0))){ n=n+1; }
+  if(keyIsDown("B".charCodeAt(0))){ n=n-1; }
+}
+if(keyIsDown(UP_ARROW)){
+  h -= 5;
+  if(keyIsDown("A".charCodeAt(0))){ n=n+1; }
+  if(keyIsDown("B".charCodeAt(0))){ n=n-1; }
+}
+if(keyIsDown(DOWN_ARROW)){
+  h += 5;
+  if(keyIsDown("A".charCodeAt(0))){ n=n+1; }
+  if(keyIsDown("B".charCodeAt(0))){ n=n-1; }
+}
