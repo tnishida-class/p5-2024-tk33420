@@ -14,3 +14,16 @@ function setup(){
     // BLANK[1]
   }
 }
+
+
+
+if(keyIsDown("A".charCodeAt(0))){
+  g=0;
+} else{
+  g=1;
+}
+if(keyIsDown("A".charCodeAt(0))){
+  vyMax=0;
+} else{
+  vyMax=40;
+}
