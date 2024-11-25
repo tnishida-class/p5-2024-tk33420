@@ -4,7 +4,7 @@ let x, y;
 function setup(){
   createCanvas(windowWidth, windowHeight);
   x = width/2;
-  y = height;
+  y = height-25;
 }
 
 function draw(){
